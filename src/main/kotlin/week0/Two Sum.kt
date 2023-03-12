@@ -1,4 +1,4 @@
-package day1
+package week0
 
 fun twoSum(nums: IntArray, target: Int): IntArray {
     val map = mutableMapOf<Int, Int>()

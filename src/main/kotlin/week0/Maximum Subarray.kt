@@ -1,4 +1,4 @@
-package day1
+package week0
 
 fun maxSubArray(nums: IntArray): Int {
     var mSum = Integer.MIN_VALUE

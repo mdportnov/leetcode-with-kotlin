@@ -1,4 +1,4 @@
-package day1
+package week0
 
 fun lengthOfLongestSubstring(s: String): Int {
     var longestSubstring = ""

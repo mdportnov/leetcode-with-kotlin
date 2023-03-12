@@ -1,4 +1,4 @@
-package day1
+package week0
 
 fun containsDuplicate(nums: IntArray): Boolean {
     var flag = false

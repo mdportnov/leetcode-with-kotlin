@@ -1,4 +1,4 @@
-package day1
+package week0
 
 var list = ListNode(5)
 
