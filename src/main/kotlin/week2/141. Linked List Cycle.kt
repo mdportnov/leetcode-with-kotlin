@@ -5,6 +5,16 @@ var v = li.`val`
 
 class ListNode(var `val`: Int) {
     var next: ListNode? = null
+    override fun toString(): String {
+        val sb = StringBuilder()
+        sb.append(`val`)
+        var tmp = next
+        while (tmp != null) {
+            sb.append(tmp.`val`)
+            tmp = tmp.next
+        }
+        return sb.toString()
+    }
 }
 
 class Solution {
